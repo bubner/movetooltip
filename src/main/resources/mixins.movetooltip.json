@@ -1,0 +1,8 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.bubner.movetooltip.mixin",
+  "refmap": "refmap.movetooltip.json",
+  "client": [
+    "MixinGuiIngameForge"
+  ]
+}
