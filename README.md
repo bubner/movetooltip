@@ -7,7 +7,7 @@ TODO: image
 
 Usage:
 ```
-/tooltip <screen-height-%-offset>
+/tooltip <y-offset-px>
 ```
 
 ###### Copyright (c) Lucas Bubner 2025, under MIT.
