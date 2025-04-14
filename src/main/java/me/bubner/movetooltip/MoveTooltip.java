@@ -5,7 +5,7 @@ import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 import java.io.File;
 
@@ -16,7 +16,7 @@ public class MoveTooltip {
     public static Configuration config;
 
     @Mod.EventHandler
-    public void preInit(FMLPreInitializationEvent event) {
+    public void init(FMLInitializationEvent event) {
         File configFile = new File(Loader.instance().getConfigDir(), "movetooltip.cfg");
         Configuration config = new Configuration(configFile);
         config.load();

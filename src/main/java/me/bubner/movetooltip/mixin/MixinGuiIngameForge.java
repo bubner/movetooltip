@@ -21,7 +21,8 @@ public class MixinGuiIngameForge {
         int offset = config.get("settings", "offset", 0).getInt();
         if (offset == 0)
             return;
-        Field scaledHeight = ScaledResolution.class.getDeclaredField("scaledHeight");
+        @SuppressWarnings("JavaReflectionMemberAccess") // MCP mapping used
+        Field scaledHeight = ScaledResolution.class.getDeclaredField("field_78331_b"); // scaledHeight
         scaledHeight.setAccessible(true);
         // Add an arbitrary offset on scaledRes before it gets sent to the renderer, which moves it
         scaledHeight.setInt(scaledRes, scaledRes.getScaledHeight() - offset);
