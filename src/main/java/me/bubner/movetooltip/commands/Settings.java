@@ -36,7 +36,6 @@ public class Settings extends CommandBase {
                     .set(offset);
             Minecraft.getMinecraft().thePlayer.addChatMessage(new ChatComponentText(
                     "§7Tooltip Y offset set to " + offset + " pixels!"));
-
         } catch (NumberFormatException e) {
             throw new CommandException(USE_COMMAND);
         } finally {
