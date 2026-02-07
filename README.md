@@ -13,4 +13,4 @@ Usage:
 /tooltip <y-offset-px>
 ```
 
-###### Copyright (c) Lucas Bubner 2025, under MIT.
+###### Copyright (c) Lucas Bubner 2026, under MIT.
