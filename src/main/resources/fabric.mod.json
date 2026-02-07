@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "movetooltip",
+	"version": "${version}",
+	"name": "movetooltip",
+	"description": "Vertically moves the Held Item Tooltip.",
+	"authors": [
+		"bubner"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/movetooltip/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"me.bubner.movetooltip.MoveTooltip"
+		]
+	},
+	"mixins": [
+		"movetooltip.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

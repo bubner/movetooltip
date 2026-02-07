@@ -1,6 +1,6 @@
 # movetooltip
 
-A very simple Forge 1.8.9 Minecraft mod to vertically offset the Held Item Tooltip to
+A very simple Fabric 1.21.10 Minecraft mod to vertically offset the Held Item Tooltip to
 move it out of the way of other mod UIs and hearts.
 
 | Before  | After |
