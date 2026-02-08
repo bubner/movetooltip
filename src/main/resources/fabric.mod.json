@@ -8,8 +8,8 @@
 		"bubner"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/bubner/movetooltip",
+		"sources": "https://github.com/bubner/movetooltip"
 	},
 	"license": "MIT",
 	"icon": "assets/movetooltip/icon.png",
